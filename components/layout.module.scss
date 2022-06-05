@@ -1,0 +1,18 @@
+.container {
+  display: grid;
+  grid-template-areas: "header" "main" "footer";
+  .header {
+    grid-area: header;
+    background-color: aqua;
+  }
+  .main {
+    grid-area: main;
+    font-size: 2rem;
+    height: 60%;
+    width: 50%;
+  }
+  .footer {
+    grid-area: footer;
+    background-color: black;
+  }
+}
